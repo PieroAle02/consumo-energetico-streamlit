@@ -1,0 +1,37 @@
+# CASOS DE PRUEBA: Calculadora de Consumo Energético
+
+## CASO DE PRUEBA 1: Equipo de alto consumo (Horno de Secado)
+- Entrada: 
+  - Tarifa: 0.85 S/ por kWh
+  - Nombre: Horno de Secado
+  - Potencia: 2500 W
+  - Cantidad: 2
+  - Horas Diarias: 8
+  - Días Mensuales: 20
+- Resultado Esperado:
+  - Consumo Mensual: (2500 * 2 * 8 * 20) / 1000 = 800 kWh
+  - Costo Mensual: 800 * 0.85 = 680.00 S/
+
+## CASO DE PRUEBA 2: Equipos ofimáticos (Computadoras)
+- Entrada: 
+  - Tarifa: 0.70 S/ por kWh
+  - Nombre: Computadora
+  - Potencia: 300 W
+  - Cantidad: 15
+  - Horas Diarias: 12
+  - Días Mensuales: 24
+- Resultado Esperado:
+  - Consumo Mensual: (300 * 15 * 12 * 24) / 1000 = 1296 kWh
+  - Costo Mensual: 1296 * 0.70 = 907.20 S/
+
+## CASO DE PRUEBA 3: Equipo de uso continuo (Incubadora)
+- Entrada: 
+  - Tarifa: 0.80 S/ por kWh
+  - Nombre: Incubadora
+  - Potencia: 150 W
+  - Cantidad: 3
+  - Horas Diarias: 24
+  - Días Mensuales: 30
+- Resultado Esperado:
+  - Consumo Mensual: (150 * 3 * 24 * 30) / 1000 = 324 kWh
+  - Costo Mensual: 324 * 0.80 = 259.20 S/
